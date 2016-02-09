@@ -8,6 +8,27 @@ body {
   background: #ccc;
 }
  
+h1{
+  font-family:Helvetica;
+  color:#57c5a0;
+} 
+
+a{
+  text-decoration:none;
+}
+
+.bar{
+  display:block;
+  background:#242424;
+  height:50px;
+}
+.logo{
+  float:left;
+}
+
+.pannel{
+  float:right;
+}
 nav ul {
   list-style: none;
   background-color: #444;

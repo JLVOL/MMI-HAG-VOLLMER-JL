@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
 html{
   width:100%;
 }
@@ -9,7 +11,9 @@ body {
 }
  
 h1{
-  font-family:Helvetica;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:300;
+  font-size: 25px;
   color:#57c5a0;
 } 
 
@@ -17,18 +21,60 @@ a{
   text-decoration:none;
 }
 
+#back{
+	width:100%;
+	background-color:#242424;
+}
+
+.wrap{
+	margin: 0 auto;
+	width:95%;
+}
+
 .bar{
+  padding: 0 4%;		
   display:block;
   background:#242424;
   height:50px;
 }
 .logo{
-  float:left;
+	float: left;
+	margin: -10px 0;
 }
 
 .pannel{
   float:right;
 }
+
+.search{
+    position: relative;
+    float: right;
+    width: 20%;
+    border-right: 1px solid rgb(60, 60, 60);
+    padding: 16px 10px;
+    margin: 0;
+}
+
+.search i {
+	color: #777777;
+}
+
+.login {
+	border-right: 1px solid rgb(60, 60, 60);
+    padding: 12px 16px;
+    float: right;
+}
+
+.login ul {
+	list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.login ul li{
+	display: inline-block;
+}
+
 nav ul {
   list-style: none;
   background-color: #444;

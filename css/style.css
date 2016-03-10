@@ -271,6 +271,9 @@ ul{
 	margin-top: 0px;
 }
 
+.full{
+	min-width:100%;
+}
 /* fin slider */
 
 /* highlight */
@@ -599,6 +602,7 @@ footer div{
 
 .footer-soc-r{
     float: right;
+	width: 250px;
 }
 
 .newsletter{
